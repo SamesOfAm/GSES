@@ -1,0 +1,23 @@
+.teaser-startpage {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative; }
+
+.teaser-startpage .imgban {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  transition: all ease-in-out 500ms;
+  -webkit-transition: all ease-in-out 500ms;
+  -moz-transition: all ease-in-out 500ms;
+  -o-transition: all ease-in-out 500ms;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.teaser-startpage > img {
+  width: 100%;
+  height: auto; }
+
+/*# sourceMappingURL=teaser-startpage.css.map */

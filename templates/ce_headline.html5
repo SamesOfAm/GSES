@@ -1,0 +1,11 @@
+
+<div class="hl-wrapper">
+	<div class="hl-article">
+		<<?= $this->hl ?> class="<?= $this->class ?>"<?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?>>
+          <?= $this->headline ?>
+        </<?= $this->hl ?>>
+        <div class="article-icon"<?= $this->cssID ?>></div>
+	</div>
+</div>
+
+

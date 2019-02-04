@@ -1,0 +1,127 @@
+.navbar-top {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3; }
+
+.white-bar-top {
+  position: absolute;
+  background-color: #ececec;
+  width: 100%; }
+
+.lang-select {
+  font-weight: 700;
+  color: white;
+  z-index: 3;
+  position: absolute;
+  left: 50px;
+  top: 40px; }
+
+.menu {
+  font-weight: 700;
+  color: white;
+  z-index: 3;
+  position: absolute;
+  right: 50px;
+  top: 40px; }
+
+.nav-bg {
+  background-color: rgba(50, 74, 106, 0.6);
+  position: absolute; }
+
+.inner-logo {
+  position: relative; }
+
+.menu-symbol {
+  font-family: "Icons"; }
+
+@media screen and (min-width: 2001px) {
+  .white-bar-top {
+    z-index: 2;
+    width: 101%;
+    height: 32px; }
+
+  .lang-select {
+    font-weight: 700;
+    color: white;
+    z-index: 3;
+    position: absolute;
+    left: 50px;
+    top: 50px; }
+
+  .menu {
+    font-weight: 700;
+    color: white;
+    z-index: 3;
+    position: absolute;
+    right: 50px;
+    top: 50px; }
+
+  .nav-bg {
+    height: 200px;
+    width: 101%;
+    transform: rotate(-3deg);
+    top: -50px;
+    left: -10px; }
+
+  .inner-logo {
+    width: 245px;
+    margin-left: 200px;
+    margin-right: auto;
+    padding-top: 20px;
+    height: 160px;
+    z-index: 1; } }
+@media screen and (max-width: 2000px) {
+  .white-bar-top {
+    height: 18px;
+    z-index: 2; }
+
+  .nav-bg {
+    height: 180px;
+    width: 101%;
+    transform: rotate(-3deg);
+    top: -50px;
+    left: -10px; }
+
+  .inner-logo {
+    width: 200px;
+    margin-left: 200px;
+    padding-top: 20px;
+    height: 160px;
+    z-index: 1; } }
+@media screen and (max-width: 998px) {
+  .white-bar-top {
+    height: 18px;
+    z-index: 1; }
+
+  .lang-select {
+    font-size: 18px;
+    left: 30px;
+    top: 40px; }
+
+  .menu {
+    font-size: 18px;
+    right: 40px;
+    top: 40px; }
+
+  .nav-bg {
+    width: 100%;
+    height: 90px;
+    transform: none;
+    top: 0;
+    left: 0;
+    z-index: 0; }
+
+  .inner-logo {
+    top: 0;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 205px;
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
+
+/*# sourceMappingURL=navbar-top.css.map */
